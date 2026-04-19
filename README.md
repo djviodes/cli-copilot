@@ -1,5 +1,7 @@
 # CLI-Copilot
 
+[![Run Tests](https://github.com/djviodes/cli-copilot/actions/workflows/test.yml/badge.svg)](https://github.com/djviodes/cli-copilot/actions/workflows/test.yml)
+
 A command line tool that generates bash commands by interpreting natural language requests, powered by a local LLM via Ollama.
 
 ## Demo
