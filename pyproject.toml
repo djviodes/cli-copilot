@@ -3,7 +3,10 @@ name = "cli-copilot"
 version = "0.0.1"
 description = "Small locally run LLM to autopopulate CLI commands"
 authors = [{ name = "David Viodes" }]
-dependencies = []
+dependencies = [
+    "requests",
+    "pytest"
+]
 
 requires-python = ">=3.8"
 
