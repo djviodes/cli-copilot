@@ -4,7 +4,7 @@ import re
 import requests
 import sys
 
-CAUTION_PATTERN = r"sudo|rm\b|rmdir|chmod|chown|mkfs|curl|wget|scp|\bkill\b|killall|install|fdisk|\bsu\b|\bPATH\b"
+CAUTION_PATTERN = r"sudo|\brm\b|rmdir|chmod|chown|mkfs|\bcurl\b|wget|scp|\bkill\b|killall|\binstall\b|fdisk|\bsu\b|\bPATH\b"
 DEFAULT_MODEL = "llama3.2"
 PROMPT_PREFIX = """You are a bash command generator. You must respond in exactly this format with no deviations:
 
