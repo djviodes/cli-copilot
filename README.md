@@ -4,12 +4,6 @@
 
 A command line tool that generates bash commands by interpreting natural language requests, powered by a local LLM via Ollama.
 
-## Demo
-![CLI-Copilot Basic Command Demo](basic_command_demo.gif)
-![CLI-Copilot Destructive Command Demo](destructive_command_demo.gif)
-![CLI-Copilot Explained Command Demo](explained_command_demo.gif)
-> Note: Waiting period trimmed from demo. Inference time varies depending on hardware and model size.
-
 ---
 
 ## Features
